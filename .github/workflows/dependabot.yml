@@ -1,11 +1,11 @@
 name: Raise a dependabot pull request
-on: push
-  - master
+on:
+  push:
+    branches:
+      - master
 
 version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    schedule:
-      interval: "daily"
     open-pull-requests-limit: 0
