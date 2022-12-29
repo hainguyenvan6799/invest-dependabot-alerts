@@ -1,6 +1,5 @@
-# Example configuration file that:
-#  - Ignores lodash dependency
-#  - Disables version-updates
+name: Raise a dependabot pull request
+on: master
 
 version: 2
 updates:
